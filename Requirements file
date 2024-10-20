@@ -1,0 +1,26 @@
+Requirements
+To run this face detection and recognition project, you will need the following:
+1. Hardware Requirements
+•	A webcam (built-in or external) for real-time face detection and recognition.
+2. Software Requirements
+Operating System
+•	This project is compatible with Windows, macOS, and Linux.
+Python Version
+•	Python 3.x (Make sure Python is installed on your machine).
+You can download Python from the browser.
+Python Libraries
+The following Python libraries are required:
+•	OpenCV: For face detection and recognition using Haar Cascades and LBPHFaceRecognizer.
+•	Numpy: For handling numerical operations and arrays.
+Install the required libraries using the following command:
+pip install opencv-python opencv-contrib-python numpy
+3. Other Requirements
+•	Haar Cascade File: This is the face detection model provided by OpenCV. Ensure you have the haarcascade_frontalface_default.xml file in your project directory. You can download it from the OpenCV GitHub repository.
+4. Dataset
+•	You will need a dataset of face images for the people you want to recognize. The dataset should be organized into folders (one folder per person) and should contain multiple images of each face for training.
+The following things must be done according to prerequisites for this project:
+•	pip install opencv-python opencv-contrib-python numpy
+•	git clone https://github.com/your-username/your-repository.git
+•	cd your-repository
+•	haarcascade_frontalface_default.xml (Haar Cascade file for face detection)
+
